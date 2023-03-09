@@ -1,0 +1,27 @@
+/* Popup style */
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+  
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    position: absolute;
+    padding: 22px;
+    width: 100%;
+    max-width: 100vh;
+    background-color: #fff;
+  }
+  
+  .popup-content .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
